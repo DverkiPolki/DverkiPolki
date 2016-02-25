@@ -1,17 +1,30 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 #header-row {
     background: rgba(0, 0, 0, 0.5);
+    padding: 0 1em;
 }
 #phone {
     font-size: 2.66em;
     color: #fff;
     text-decoration: none;
 }
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+.top-background {
+    background: url(images/top-background.jpg) no-repeat center top scroll;
+    background-size: 100% auto;
+    padding-bottom: 33%;
+}
+#hero {
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    padding: 2em 0;
 }
