@@ -1,0 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#header-row {
+    background: rgba(0, 0, 0, 0.5);
+}
+#phone {
+    font-size: 2.66em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
