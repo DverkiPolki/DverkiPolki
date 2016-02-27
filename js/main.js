@@ -1,7 +1,8 @@
-function slider(running) {
-
-}
 $(document).ready(function() {
+    $('.top-background').flowtype({
+       minimum : 400,
+       maximum : 600
+    });
     $('#logo').on('click', function (e) {
         e.preventDefault();
 
