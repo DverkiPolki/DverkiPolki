@@ -10,9 +10,11 @@ $(document).ready(function() {
         }, 500);
 
     });
+
     var slider = $('#slider').tinycarousel({
-        interval: true
-    }).data("plugin_tinycarousel");
+        interval: true,
+        intervalTime: 2000
+    }).data('plugin_tinycarousel');
 
     var popover = $('[data-toggle="popover"]');
     popover.popover();
