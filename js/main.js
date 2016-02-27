@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.top-background').flowtype({
-       minimum : 400,
+       minimum : 0,
        maximum : 600
     });
     $('#logo').on('click', function (e) {

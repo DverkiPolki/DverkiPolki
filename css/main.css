@@ -23,18 +23,19 @@ body {
     text-decoration: none;
 }
 .top-background {
-    background: rgba(0, 0, 0, 0.5) url(../images/top-background.jpg) no-repeat center top scroll;
-    background-size: 100% auto;
+    background: rgba(0, 0, 0, 0.5) url(../images/top-background.jpg)
+        no-repeat center scroll;
+    background-size: 100%;
 }
 #hero {
     text-align: center;
     font-size: 3em;
     color: #fff;
-    padding: 2em;
+    padding: 10% 15%;
 }
 #hero .subtitle {
     font-size: 0.5em;
-    padding-top: 1.5em;
+    padding: 1.5em 0 0.5em 0;
 }
 #glav {
     margin: 2.5em 0;
@@ -127,3 +128,18 @@ figure:hover+span {
     height: 91px;
     width: 146px;
  }
+
+@media (max-width: 767px) /* @grid-float-breakpoint -1 */
+{
+    #header-row {
+        background: #333;
+    }
+    .top-background {
+        background-size: 150%;
+    }
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+        margin-bottom: 0;
+    }
+}
