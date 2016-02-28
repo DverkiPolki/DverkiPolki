@@ -25,7 +25,7 @@ body {
 .top-background {
     background: rgba(0, 0, 0, 0.5) url(../images/top-background.jpg)
         no-repeat center scroll;
-    background-size: 100%;
+    background-size: 112% auto;
 }
 #hero {
     text-align: center;
@@ -132,7 +132,11 @@ figure:hover+span {
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     #header-row {
-        background: #333;
+        background: #000;
+        text-align: center;
+    }
+    #hero {
+        padding-left: 5% !important;
     }
     .top-background {
         background-size: 150%;
