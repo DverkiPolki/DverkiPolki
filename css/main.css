@@ -146,4 +146,7 @@ figure:hover+span {
         top: auto;
         margin-bottom: 0;
     }
+    #glav div {
+        margin-bottom: 1em;
+    }
 }
