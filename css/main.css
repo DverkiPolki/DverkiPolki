@@ -5,6 +5,9 @@ body {
 h2, h3 {
     margin: 1.5em 0;
 }
+p {
+    margin: 1em 0;
+}
 
 .vcenter {
     display: inline-block;
@@ -48,6 +51,10 @@ h2, h3 {
 }
 #glav {
     margin: 2.5em 0;
+}
+#footer {
+    background: #111;
+    color: #fff;
 }
 
 figure {
@@ -141,7 +148,7 @@ figure:hover+span {
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
     #header-row {
-        background: #000;
+        background: #111;
         text-align: center;
     }
     #hero-container {
