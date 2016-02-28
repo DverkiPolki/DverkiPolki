@@ -56,6 +56,9 @@ p {
     background: #111;
     color: #fff;
 }
+#footer-button {
+    margin: 3em 0;
+}
 
 figure {
 	margin: 0;
