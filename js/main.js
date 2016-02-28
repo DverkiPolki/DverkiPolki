@@ -25,4 +25,20 @@ $(document).ready(function() {
     popover.on('hidden.bs.popover', function () {
         slider.start();
     });
+
+    $('.fancybox-media').fancybox({
+		maxWidth	: 768,
+		maxHeight	: 1024,
+		fitToView	: false,
+		width		: '95%',
+		height		: '95%',
+		autoSize	: false,
+		closeClick	: true,
+		openEffect	: 'fade',
+		closeEffect	: 'fade',
+        helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
 });
