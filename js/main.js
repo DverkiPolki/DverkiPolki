@@ -29,6 +29,7 @@ $(document).ready(function() {
     $('.fancybox-media').fancybox({
 		maxWidth	: 768,
 		maxHeight	: 1024,
+        padding     : 2,
 		fitToView	: false,
 		width		: '95%',
 		height		: '95%',
