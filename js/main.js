@@ -45,8 +45,8 @@ $(document).ready(function() {
     var imageTpl = '<img class="fancybox-image" src="{href}" alt="" />' +
         '<div class="thumb-number">{number}</div>';
     $(".fancybox-thumbnail").fancybox({
-		prevEffect	: 'fade',
-		nextEffect	: 'fade',
+		prevEffect	: 'elastic',
+		nextEffect	: 'elastic',
         openEffect	: 'fade',
 		closeEffect	: 'fade',
 		helpers	: {
