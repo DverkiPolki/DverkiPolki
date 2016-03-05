@@ -88,6 +88,19 @@ figure:hover+span {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+.thumb-number {
+    float: right;
+    position: relative;
+    right: 4px;
+    bottom: 34px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    webkit-border-radius: 50%;
+}
 
 /* Tiny Carousel */
 #slider {

@@ -42,7 +42,7 @@ $(document).ready(function() {
 		}
 	});
 
-    $(".thumbnail").fancybox({
+    $(".fancybox-thumbnail").fancybox({
 		prevEffect	: 'fade',
 		nextEffect	: 'fade',
 		helpers	: {
