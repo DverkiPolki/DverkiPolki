@@ -44,14 +44,17 @@ $(document).ready(function() {
 
     var imageTpl = '<img class="fancybox-image" src="{href}" alt="" />' +
         '<div class="thumb-number">{number}</div>';
-    $(".fancybox-thumbnail").fancybox({
+    $('.fancybox-thumbnail').fancybox({
 		prevEffect	: 'elastic',
 		nextEffect	: 'elastic',
         openEffect	: 'fade',
 		closeEffect	: 'fade',
-		helpers	: {
+        maxWidth	: 1600,
+		maxHeight	: 1200,
+        padding     : 0,
+		helpers	    : {
 			title	: {
-				type: 'outside'
+				type: 'over'
 			}
 		},
         afterLoad: function() {
@@ -61,7 +64,16 @@ $(document).ready(function() {
                     image: imageTpl.replace('{number}', number)
                 }
             });
+        },
+        beforeShow: function () {
+            /* Disable right click */
+            $.fancybox.wrap.bind('contextmenu', function (e) {
+                    return false;
+            });
         }
-
 	});
+    $('.fancybox-thumbnail').bind('contextmenu', function (e) {
+            return false;
+    });
+
 });
