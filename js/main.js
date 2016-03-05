@@ -49,8 +49,8 @@ $(document).ready(function() {
 		nextEffect	: 'elastic',
         openEffect	: 'fade',
 		closeEffect	: 'fade',
-        maxWidth	: 1600,
-		maxHeight	: 1200,
+        maxWidth	: 1024,
+		maxHeight	: 768,
         padding     : 0,
 		helpers	    : {
 			title	: {
