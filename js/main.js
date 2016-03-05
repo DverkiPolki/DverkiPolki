@@ -3,7 +3,7 @@ $(document).ready(function() {
        minimum : 0,
        maximum : 600
     });
-    $('#logo').on('click', function (e) {
+    $('#logo[href="#"]').on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
@@ -39,6 +39,16 @@ $(document).ready(function() {
         helpers		: {
 			title	: { type : 'inside' },
 			buttons	: {}
+		}
+	});
+
+    $(".thumbnail").fancybox({
+		prevEffect	: 'fade',
+		nextEffect	: 'fade',
+		helpers	: {
+			title	: {
+				type: 'outside'
+			}
 		}
 	});
 });

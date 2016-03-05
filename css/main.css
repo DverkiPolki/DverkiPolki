@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 200%;
 }
+h1 {
+    margin: 1em 0 0.5em 0;
+    font-size: 400%;
+}
 h2, h3 {
     margin: 1.5em 0;
 }
@@ -16,6 +20,9 @@ p {
 }
 .no-float {
     float: none;
+}
+.text-black {
+    color: #000;
 }
 
 #header-row {
