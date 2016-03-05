@@ -42,13 +42,26 @@ $(document).ready(function() {
 		}
 	});
 
+    var imageTpl = '<img class="fancybox-image" src="{href}" alt="" />' +
+        '<div class="thumb-number">{number}</div>';
     $(".fancybox-thumbnail").fancybox({
 		prevEffect	: 'fade',
 		nextEffect	: 'fade',
+        openEffect	: 'fade',
+		closeEffect	: 'fade',
 		helpers	: {
 			title	: {
 				type: 'outside'
 			}
-		}
+		},
+        afterLoad: function() {
+            var number = $(this.element).attr('data-number');
+            $.extend(true, this, {
+                tpl: {
+                    image: imageTpl.replace('{number}', number)
+                }
+            });
+        }
+
 	});
 });
