@@ -185,6 +185,9 @@ figure:hover+span {
 
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
+    h1 {
+        font-size: 200%;
+    }
     #header-row {
         background: #111;
         text-align: center;

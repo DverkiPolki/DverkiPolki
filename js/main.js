@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('.top-background, h1').flowtype({
-       minimum : 0,
+    $('.top-background').flowtype({
+       minimum : 1,
        maximum : 600
     });
     $('a[href="#"]').on('click', function (e) {
