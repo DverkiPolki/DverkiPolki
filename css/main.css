@@ -188,6 +188,9 @@ figure:hover+span {
     h1 {
         font-size: 200%;
     }
+    .btn {
+        width: 66%;
+    }
     #header-row {
         background: #111;
         text-align: center;
