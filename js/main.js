@@ -3,7 +3,7 @@ $(document).ready(function() {
        minimum : 0,
        maximum : 600
     });
-    $('#logo[href="#"]').on('click', function (e) {
+    $('a[href="#"]').on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({
