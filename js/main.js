@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.top-background').flowtype({
+    $('.top-background, h1').flowtype({
        minimum : 0,
        maximum : 600
     });
